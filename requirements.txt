@@ -1,0 +1,9 @@
+Click==7.0
+Flask==1.0.2
+Flask-SQLAlchemy==2.3.2
+itsdangerous==1.1.0
+Jinja2==2.10
+MarkupSafe==1.1.1
+SQLAlchemy==1.2.18
+-e git+https://github.com/mwissem/tunisme.git@f4fb6b217f3a2c1e78a9fc14bf0e908adf5ab955#egg=tunisme
+Werkzeug==0.14.1
