@@ -23,9 +23,10 @@ def create_app(test_config=None):
     # register api blueprints here
     from .api.auth import auth
     from .admin.admin import admin
+    from .home.home import home
 
     app.register_blueprint(auth)
     app.register_blueprint(admin)
-
+    app.register_blueprint(home)
 
     return(app)
